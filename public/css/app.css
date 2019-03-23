@@ -1,0 +1,31 @@
+.result-card {
+	background-color: #cabaf1;
+}
+
+.result-card img {
+	background-color: #cabaf1;
+	border-color: #cabaf1;
+}
+
+.entire-page {
+	position: relative;
+	height: 100vh;
+	width: 100%;
+}
+
+.search {
+	position: absolute;
+	width: 80%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.submit {
+	height: calc(1.5em + 1rem + 8px);
+}
+
+.invalid-form {
+	border-color: #f10202;
+	background: #f7d8d8;
+}
